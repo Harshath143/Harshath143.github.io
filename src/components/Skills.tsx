@@ -42,7 +42,7 @@ const Skills = () => {
       description: "Development and deployment tools",
       skills: [
         "IBM Cloud", "Azure DevOps", "Git/GitHub", "Power BI", 
-        "Jupyter Notebook", "VS Code", "Remix IDE", "Power Automate"
+        "Jupyter Notebook", "VS Code", "Remix IDE", "Power Automate", "Docker", "Kubernetes", "AWS"
       ],
       color: "text-orange-500"
     },
@@ -52,7 +52,7 @@ const Skills = () => {
       description: "Essential development utilities",
       skills: [
         "Git", "GitHub", "VS Code", "Jupyter", "BeautifulSoup", 
-        "SMTP", "Google Translate API", "Ethereum", "Blockchain","Ollama","n8n"
+        "SMTP", "Google Translate API", "Ethereum", "Blockchain", "Ollama", "n8n"
       ],
       color: "text-indigo-500"
     },
