@@ -38,19 +38,34 @@ const Projects = () => {
 
   const workExperience = [
     {
+      title: "AI Developer",
+      company: "OPSEN",
+      location: "London, UK [Remote]",
+      duration: "Oct 2025 – Nov 2025 (2 months)",
+      type: "Full-time",
+      description: "AI Developer specializing in GenAI backend development and distributed systems.Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines with a strong focus on performance optimization and production reliability.",
+      technologies: ["Python", "ClickHouse", "LLM", "RAG Pipelines", "Multi-Agent Architecture", "Langraph", "Dynamic Task Execution", "Git", "Distributed System"],
+      achievements: [
+        "Integrated ClickHouse database with multi-agent architecture, enabling high-speed analytics and scalable data storage for AI-driven risk models",
+        "Implemented LLM-powered RAG workflows, enhancing document comprehension and policy analysis accuracy by 40%",
+        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for risk management simulations",
+        "Built production legislative automation system using LangGraph + RAG pipelines, reducing processing latency by 30%."
+      ]
+    },
+    {
       title: "Machine Learning Intern",
       company: "TMIS",
       location: "Chennai, India",
       duration: "Feb 2025 – March 2025 (2 months)",
       type: "Full-time",
       description: "Assisted in developing and deploying machine learning models to solve real-world problems across various domains. Supported data preprocessing, exploratory data analysis, feature engineering, and model evaluation tasks. Collaborated with cross-functional teams to understand requirements and translate them into technical solutions.",
-      technologies: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Machine Learning","Git", "Jupyter Notebook"],
+      technologies: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Machine Learning", "Git", "Jupyter Notebook"],
       achievements: [
         "Built and deployed a classification model to detect anomalies in health records, improving data quality and consistency by 85%",
         "Engineered data pipelines for preprocessing millions of patient records using Python and Pandas",
         "Evaluated model performance using standard metrics and improved model accuracy through tuning",
         "Documented workflows and collaborated with team members on project milestones",
-        "Collaborated with data scientists to implement machine learning algorithms for predictive analytics"
+        "Collaborated with data scientists to implement machine learning algorithms for predictive analytics."
       ]
     },
     {
