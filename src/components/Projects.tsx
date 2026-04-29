@@ -11,7 +11,7 @@ const Projects = () => {
       title: "AI AGENT– INVESTMENT ADVISORY SYSTEM",
       description: "AI-powered investment advisory system that provides personalized investment recommendations based on user preferences and market trends. Utilizes machine learning algorithms to analyze financial data and generate insights.uses Langchain for building AI agents and Timeseries analysis for financial data.",
       image: "https://images.unsplash.com/photo-1559526324-593bc073d938?w=500&h=300&fit=crop",
-      technologies: ["Python", "NLTK", "Hugging Face", "Flask", "TensorFlow", "AI Agent","Timeseries","Langchain"],
+      technologies: ["Python", "NLTK", "Hugging Face", "Flask", "TensorFlow", "AI Agent", "Timeseries", "Langchain"],
       githubUrl: "https://github.com/Harshath143/AI_Agent_Investment_Advisory",
       // liveUrl: "#",
       featured: true
@@ -33,10 +33,34 @@ const Projects = () => {
       githubUrl: "https://github.com/Harshath143/WorkSync_System",
       // liveUrl: "#",
       featured: true
+    },
+    {
+      title: "AI_Company_prototype",
+      description: "NeoForge AI is an autonomous software development system built with Python and FastAPI, enabling the seamless transformation of high-level requirements into production-ready codebases. It utilizes a multi-agent orchestration architecture to ensure high code quality through specialized roles—including Architects and Developers—and provides reliable, placeholder-free file generation. The system features a built-in dashboard for real-time workflow visualization and operates within isolated project environments to maintain strict structural integrity.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
+      technologies: ["Django", "Flask", "Multi-Agent Architecture", "Groq API", "File Management", "LangGraph"],
+      githubUrl: "https://github.com/Harshath143/AI_Company_prototype",
+      // liveUrl: "#",
+      featured: true
     }
   ];
 
   const workExperience = [
+    {
+      title: "AI / ML Engineer",
+      company: "Holistic MD LLP",
+      location: "Coimbatore, India ",
+      duration: "Dec 2025 – Present ",
+      type: "Full-time",
+      description: "AI Developer specializing in GenAI backend development and distributed systems.Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines with a strong focus on performance optimization and production reliability.",
+      technologies: ["Python", "Django", "FastAPI", "Redis", "Langchain", "MLflow", "AWS", "LLM", "RAG Pipelines", "Multi-Agent Architecture", "Langraph", "Dynamic Task Execution", "Git", "Distributed System"],
+      achievements: [
+        "Developed VisionAnalyzer, a real-time computer vision application using Django and Groq API to perform lowlatency object detection and automated ingredient extraction from live camera feeds.",
+        "Implemented LLM-powered RAG workflows,and Created Chat Bots for Personal and professional use.",
+        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for Health management simulations",
+        "Built production legislative automation system using LangGraph + RAG pipelines, reducing processing latency by 30%."
+      ]
+    },
     {
       title: "AI Developer",
       company: "OPSEN",
@@ -75,7 +99,7 @@ const Projects = () => {
       duration: "Jul 2023 – Sep 2023 (3 months)",
       type: "Remote Internship",
       description: "Worked on financial data analysis and reporting to support digital wealth management solutions. Enhanced analytical skills by delivering data-driven insights and collaborating with cross-functional teams to optimize business decisions.",
-      technologies: ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Data Analysis", "Financial Analysis","Reporting Tools"],
+      technologies: ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Data Analysis", "Financial Analysis", "Reporting Tools"],
       achievements: [
         "Analyzed and processed over 1 million financial data points, identifying key market trends that contributed to a 15% improvement in portfolio recommendation accuracy.",
         "Automated routine data validation tasks, decreasing errors by 25% and improving data quality for downstream analysis.",
@@ -103,8 +127,8 @@ const Projects = () => {
             {projects.filter(project => project.featured).map((project, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
                 <div className="relative overflow-hidden">
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
@@ -173,7 +197,7 @@ const Projects = () => {
                   <CardDescription className="text-muted-foreground mb-4 leading-relaxed">
                     {experience.description}
                   </CardDescription>
-                  
+
                   <div className="mb-4">
                     <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
                       <Briefcase className="h-4 w-4" />
@@ -188,7 +212,7 @@ const Projects = () => {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div className="flex flex-wrap gap-1">
                     {experience.technologies.map((tech, techIndex) => (
                       <Badge key={techIndex} variant="secondary" className="text-xs">
