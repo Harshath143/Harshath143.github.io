@@ -2,68 +2,67 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code2, Database, TestTube, Wrench, Brain, Cloud } from 'lucide-react';
+import { Code2, Database, Brain, Cloud, Award, BookOpen } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
+    {
+      title: "GenAI & LLM",
+      icon: Brain,
+      description: "Advanced AI agents, LLM orchestration, and RAG pipelines",
+      skills: [
+        "LangChain", "LangGraph", "AutoGen", "vLLM", "HuggingFace", 
+        "RAG Pipelines", "Multi-Agent Systems", "Ollama", "Dynamic Task Execution"
+      ],
+      color: "text-purple-500"
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: Brain,
+      description: "Deep learning models, architectures, and fine-tuning",
+      skills: [
+        "PyTorch", "BERT", "Transformers", "Model Fine-tuning", "Vector Databases", 
+        "MLOps", "Deep Learning", "Wav2Vec2", "MMS-TTS"
+      ],
+      color: "text-blue-500"
+    },
+    {
+      title: "Backend & Microservices",
+      icon: Code2,
+      description: "Scalable backend services, APIs, and microservice architectures",
+      skills: [
+        "FastAPI", "Django", "Celery", "Redis", "PostgreSQL", 
+        "REST APIs", "Microservices", "Bash"
+      ],
+      color: "text-green-500"
+    },
+    {
+      title: "Cloud & DevOps",
+      icon: Cloud,
+      description: "Infrastructure, containerization, and orchestration platforms",
+      skills: [
+        "Docker", "Kubernetes (Learning)", "GCP", "AWS", "Distributed Systems", 
+        "Git", "GitHub"
+      ],
+      color: "text-orange-500"
+    },
     {
       title: "Programming Languages",
       icon: Code2,
       description: "Core programming and scripting languages",
       skills: [
-        "Python", "JavaScript", "C#", "Java", "R", 
-        "HTML/CSS", "SQL"
-      ],
-      color: "text-blue-500"
-    },
-    {
-      title: "Web Development",
-      icon: Code2,
-      description: "Frontend and backend development",
-      skills: [
-        "React.js", "Node.js", "Express.js", "Flask", "REST APIs", 
-        "MongoDB", "JSON", "AJAX", "Bootstrap", "jQuery"
-      ],
-      color: "text-green-500"
-    },
-    {
-      title: "Data Science & AI",
-      icon: Brain,
-      description: "Machine learning and data analysis",
-      skills: [
-        "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", 
-        "Matplotlib", "NLTK", "Hugging Face", "Deep Learning", "CNN", "LSTM","Langcahin","Robo-Vision","Crew-AI"
-      ],
-      color: "text-purple-500"
-    },
-    {
-      title: "Cloud & Tools",
-      icon: Cloud,
-      description: "Development and deployment tools",
-      skills: [
-        "IBM Cloud", "Azure DevOps", "Git/GitHub", "Power BI", 
-        "Jupyter Notebook", "VS Code", "Remix IDE", "Power Automate", "Docker", "Kubernetes", "AWS"
-      ],
-      color: "text-orange-500"
-    },
-    {
-      title: "Development Tools",
-      icon: Wrench,
-      description: "Essential development utilities",
-      skills: [
-        "Git", "GitHub", "VS Code", "Jupyter", "BeautifulSoup", 
-        "SMTP", "Google Translate API", "Ethereum", "Blockchain", "Ollama", "n8n"
+        "Python", "SQL", "Bash"
       ],
       color: "text-indigo-500"
     },
-     {
-      title: "Test Automation",
-      icon: TestTube,
-      description: "Comprehensive testing frameworks and tools",
+    {
+      title: "Achievements & Certifications",
+      icon: Award,
+      description: "National distinctions and professional credentials",
       skills: [
-        "Playwright", "CodeceptJS", "Selenium", "Jest", "Cypress", 
-        "Postman", "API Testing", "E2E Testing", "Performance Testing",
-        "Test Framework Design", "CI/CD Integration"
+        "GATE 2024 (Data Science & AI - Rank 2852)",
+        "Master Data Science (IITM GUVI)",
+        "Advanced Programming Professional (IITM GUVI)"
       ],
       color: "text-red-500"
     },
@@ -75,7 +74,7 @@ const Skills = () => {
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Technical Skills</h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive skill set in Gen AI, Business Intelligence, and Data science &AI
+            Comprehensive skill set in GenAI, Distributed Systems, and Machine Learning
           </p>
         </div>
 
@@ -120,3 +119,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

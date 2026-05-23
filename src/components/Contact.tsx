@@ -69,8 +69,8 @@ const Contact = () => {
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm actively seeking new opportunities in Gen AI engineering,AI Developer and Data Scientist. 
-            Let's connect and discuss how we can build quality software together!
+            I'm actively seeking new opportunities in GenAI, Backend Engineering, and Distributed Systems. 
+            Let's connect and discuss how we can build high-performance, intelligent systems together!
           </p>
         </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-xl font-semibold text-foreground">Let's Connect</CardTitle>
                 <CardDescription>
-                  I'm passionate about Gen AI engineering, AI development, and data science, with a strong foundation in software engineering and full-stack development. I love building intelligent, scalable solutions that create real-world impact. I'm open to new roles, collaborations, or tech conversations—let's connect!
+                  I'm passionate about GenAI backend development, multi-agent orchestration, and RAG pipelines, with a strong focus on distributed systems and performance reliability. I love building intelligent, scalable solutions that create real-world impact. Let's connect!
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -89,8 +89,8 @@ const Contact = () => {
                     <User className="text-primary h-5 w-5" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Mohammed Harshath</h4>
-                    <p className="text-muted-foreground text-sm">AI & Data Science Aspirant</p>
+                    <h4 className="font-semibold text-foreground">Mohammed Harshath SS</h4>
+                    <p className="text-muted-foreground text-sm">AI & ML Engineer</p>
                   </div>
                 </div>
 
@@ -132,11 +132,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Experience</h4>
-                    <p className="text-muted-foreground text-sm">6+ months professional experience</p>
+                    <p className="text-muted-foreground text-sm">AI Developer (9+ months professional experience)</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
+
 
             <div className="flex flex-wrap gap-3">
               <Button variant="outline" size="lg" asChild>

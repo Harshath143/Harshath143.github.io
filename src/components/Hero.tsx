@@ -5,14 +5,11 @@ import { Download, ArrowRight, Code, Sparkles } from 'lucide-react';
 
 const Hero = () => {
   const roles = [
-    'Gen AI Engineer',
-    'Full Stack Developer', 
-    'Data Scientist',
-    'Software Engineer',
-    'Business Analyst',
-    'Project Manager',
-    'AI Researcher',
-    'Machine Learning Engineer'
+    'AI & ML Engineer',
+    'GenAI Specialist',
+    'LLM Developer',
+    'Distributed Systems Specialist',
+    'Data Scientist'
   ];
 
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -66,11 +63,11 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Hi, I'm <span className="text-primary">Harshath</span>
+              Hi, I'm <span className="text-primary">Mohammed Harshath SS</span>
             </h1>
             
             <div className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 h-12 flex items-center justify-center">
-              <span className="mr-2">I'm a</span>
+              <span className="mr-2">I'm an</span>
               <div className="text-primary font-medium min-w-0 flex items-center">
                 <span>{displayText}</span>
                 <span className="animate-pulse text-primary/60 ml-1">|</span>
@@ -78,9 +75,9 @@ const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              AI Engineer & Data Scientist skilled in machine learning, deep learning, NLP, LLMs, and full-stack web development.
-              Passionate about creating intelligent, automated systems to solve real-world problems.
-              Experienced in deploying scalable AI solutions and integrating open-source models into interactive Applications.
+              AI Developer specializing in GenAI backend development and distributed systems. 
+              Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines 
+              with a strong focus on performance optimization and production reliability.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -115,7 +112,7 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-wrap gap-2 justify-center max-w-2xl mx-auto">
-              {['Python', 'SQL', 'Langchain', 'Ollama', 'React', 'TensorFlow', 'Flask', 'Git'].map((skill) => (
+              {['Python', 'LangChain', 'LangGraph', 'FastAPI', 'RAG Pipelines', 'Multi-Agent Systems', 'Docker', 'vLLM', 'HuggingFace', 'PyTorch'].map((skill) => (
                 <span key={skill} className="px-3 py-1 bg-muted text-muted-foreground rounded-full text-sm font-medium border border-border hover:bg-accent transition-colors">
                   {skill}
                 </span>
@@ -129,3 +126,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

@@ -9,55 +9,51 @@ const Projects = () => {
   const projects = [
     {
       title: "AI AGENT– INVESTMENT ADVISORY SYSTEM",
-      description: "AI-powered investment advisory system that provides personalized investment recommendations based on user preferences and market trends. Utilizes machine learning algorithms to analyze financial data and generate insights.uses Langchain for building AI agents and Timeseries analysis for financial data.",
+      description: "Developed a personalized investment advisor using LangChain/RAG and transformer models for predictive stock analysis, delivering accurate, tailored forecasts and suggestions. Built containerized inference API using FastAPI + Docker with 99.9% uptime for scalable model serving.",
       image: "https://images.unsplash.com/photo-1559526324-593bc073d938?w=500&h=300&fit=crop",
-      technologies: ["Python", "NLTK", "Hugging Face", "Flask", "TensorFlow", "AI Agent", "Timeseries", "Langchain"],
+      technologies: ["LangChain", "LlamaIndex", "FastAPI", "Python", "Docker", "RAG", "Transformers"],
       githubUrl: "https://github.com/Harshath143/AI_Agent_Investment_Advisory",
-      // liveUrl: "#",
       featured: true
     },
     {
       title: "VOICEGPT – MULTILINGUAL VOICE-BASED AI ASSISTANT",
-      description: "Developed an offline multilingual AI voice assistant supporting Tamil and Marathi, using Wav2Vec2 and MMS-TTS for accurate and natural voice interaction. Integrated fine-tuned transformers with Retrieval-Augmented Generation to enable real-time, context-aware responses while ensuring complete user privacy.",
+      description: "Developed an end-to-end multilingual AI voice assistant (Tamil & Marathi support) using Wav2Vec2 for accurate Speech-to-Text and MMS-TTS for natural Text-to-Speech generation. Implemented an offline, privacy-focused system that processes data locally, utilizing fine-tuned transformer models for intent classification and Retrieval-Augmented Generation (RAG) with Sentence Transformers to provide real-time, contextually relevant answers.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
-      technologies: ["Deep Learning", "Wav2Vec2", "MMS-TTS", "Transformer", "Retrieval-Augmented Generation", "Python"],
+      technologies: ["HuggingFace", "RAG", "Ollama", "Wav2Vec2", "MMS-TTS", "Transformers", "Python"],
       githubUrl: "https://github.com/Harshath143/VoiceGPT-AI-Voice-Assistant",
-      // liveUrl: "#",
       featured: true
     },
     {
       title: "WorkSync System",
       description: "WorkSync System is a staff monitoring solution built with FastAPI and PostgreSQL, enabling efficient staff data management and real-time performance visualization. It supports image uploads and offers a clean, modular backend architecture. Future enhancements include user authentication, cloud image storage, and advanced admin features.",
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
-      technologies: ["Flask", "TensorFlow", "CNN", "IBM Cloud", "Xception", "Transfer Learning"],
+      technologies: ["FastAPI", "PostgreSQL", "Python", "SQL", "Docker", "REST APIs"],
       githubUrl: "https://github.com/Harshath143/WorkSync_System",
-      // liveUrl: "#",
       featured: true
     },
     {
       title: "AI_Company_prototype",
       description: "NeoForge AI is an autonomous software development system built with Python and FastAPI, enabling the seamless transformation of high-level requirements into production-ready codebases. It utilizes a multi-agent orchestration architecture to ensure high code quality through specialized roles—including Architects and Developers—and provides reliable, placeholder-free file generation. The system features a built-in dashboard for real-time workflow visualization and operates within isolated project environments to maintain strict structural integrity.",
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
-      technologies: ["Django", "Flask", "Multi-Agent Architecture", "Groq API", "File Management", "LangGraph"],
+      technologies: ["FastAPI", "Python", "Multi-Agent Architecture", "Groq API", "File Management", "LangGraph"],
       githubUrl: "https://github.com/Harshath143/AI_Company_prototype",
-      // liveUrl: "#",
       featured: true
     }
   ];
 
   const workExperience = [
     {
-      title: "AI / ML Engineer",
+      title: "AI & ML Engineer",
       company: "Holistic MD LLP",
-      location: "Coimbatore, India ",
-      duration: "Dec 2025 – Present ",
+      location: "Coimbatore, India [On-site]",
+      duration: "Dec 2025 – Present",
       type: "Full-time",
-      description: "AI Developer specializing in GenAI backend development and distributed systems.Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines with a strong focus on performance optimization and production reliability.",
-      technologies: ["Python", "Django", "FastAPI", "Redis", "Langchain", "MLflow", "AWS", "LLM", "RAG Pipelines", "Multi-Agent Architecture", "Langraph", "Dynamic Task Execution", "Git", "Distributed System"],
+      description: "AI Developer specializing in GenAI backend development and distributed systems. Expert in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines with strong focus on performance optimization and production reliability.",
+      technologies: ["Python", "Django", "FastAPI", "Redis", "LangChain", "LangGraph", "Groq API", "RAG Pipelines", "Multi-Agent Systems", "Dynamic Task Execution", "Distributed Systems"],
       achievements: [
-        "Developed VisionAnalyzer, a real-time computer vision application using Django and Groq API to perform lowlatency object detection and automated ingredient extraction from live camera feeds.",
-        "Implemented LLM-powered RAG workflows,and Created Chat Bots for Personal and professional use.",
-        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for Health management simulations",
+        "Developed VisionAnalyzer, a real-time computer vision application using Django and Groq API to perform low-latency object detection and automated ingredient extraction from live camera feeds.",
+        "Implemented LLM-powered RAG workflows, enhancing document comprehension and policy analysis accuracy by 40%.",
+        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for management simulations.",
         "Built production legislative automation system using LangGraph + RAG pipelines, reducing processing latency by 30%."
       ]
     },
@@ -67,12 +63,12 @@ const Projects = () => {
       location: "London, UK [Remote]",
       duration: "Oct 2025 – Nov 2025 (2 months)",
       type: "Full-time",
-      description: "AI Developer specializing in GenAI backend development and distributed systems.Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines with a strong focus on performance optimization and production reliability.",
-      technologies: ["Python", "ClickHouse", "LLM", "RAG Pipelines", "Multi-Agent Architecture", "Langraph", "Dynamic Task Execution", "Git", "Distributed System"],
+      description: "AI Developer specializing in GenAI backend development and distributed systems. Expertise in building scalable LLM inference platforms, multi-agent orchestration, and RAG pipelines.",
+      technologies: ["Python", "ClickHouse", "LLM", "RAG Pipelines", "Multi-Agent Architecture", "LangGraph", "Dynamic Task Execution", "Git", "Distributed Systems"],
       achievements: [
-        "Integrated ClickHouse database with multi-agent architecture, enabling high-speed analytics and scalable data storage for AI-driven risk models",
-        "Implemented LLM-powered RAG workflows, enhancing document comprehension and policy analysis accuracy by 40%",
-        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for risk management simulations",
+        "Integrated ClickHouse database with multi-agent architecture, enabling high-speed analytics and scalable data storage for AI-driven risk models.",
+        "Implemented LLM-powered RAG workflows, enhancing document comprehension and policy analysis accuracy by 40%.",
+        "Developed and deployed intelligent AI agents with tool-based reasoning and Dynamic Task Execution for risk management simulations.",
         "Built production legislative automation system using LangGraph + RAG pipelines, reducing processing latency by 30%."
       ]
     },
@@ -82,30 +78,28 @@ const Projects = () => {
       location: "Chennai, India",
       duration: "Feb 2025 – March 2025 (2 months)",
       type: "Full-time",
-      description: "Assisted in developing and deploying machine learning models to solve real-world problems across various domains. Supported data preprocessing, exploratory data analysis, feature engineering, and model evaluation tasks. Collaborated with cross-functional teams to understand requirements and translate them into technical solutions.",
+      description: "Assisted in developing and deploying machine learning models to solve real-world problems. Supported data preprocessing, exploratory data analysis, feature engineering, and model evaluation tasks.",
       technologies: ["Python", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Machine Learning", "Git", "Jupyter Notebook"],
       achievements: [
-        "Built and deployed a classification model to detect anomalies in health records, improving data quality and consistency by 85%",
-        "Engineered data pipelines for preprocessing millions of patient records using Python and Pandas",
-        "Evaluated model performance using standard metrics and improved model accuracy through tuning",
-        "Documented workflows and collaborated with team members on project milestones",
-        "Collaborated with data scientists to implement machine learning algorithms for predictive analytics."
+        "Built and deployed a classification model to detect anomalies in health records, improving data quality and consistency by 85%.",
+        "Engineered data pipelines for preprocessing millions of patient records using Python and Pandas.",
+        "Evaluated model performance using standard metrics and improved model accuracy through hyperparameter tuning.",
+        "Documented workflows and collaborated with team members on project milestones."
       ]
     },
     {
       title: "Data Analyst Intern",
-      company: "WeInvest -Digital Wealth Platform",
-      location: "Bengaluru, India",
+      company: "WeInvest - Digital Wealth Platform",
+      location: "Bengaluru, India [Remote]",
       duration: "Jul 2023 – Sep 2023 (3 months)",
       type: "Remote Internship",
-      description: "Worked on financial data analysis and reporting to support digital wealth management solutions. Enhanced analytical skills by delivering data-driven insights and collaborating with cross-functional teams to optimize business decisions.",
+      description: "Worked on financial data analysis and reporting to support digital wealth management solutions. Delivered data-driven insights and collaborated with cross-functional teams to optimize investment models.",
       technologies: ["Python", "SQL", "Tableau", "Excel", "Data Visualization", "Data Analysis", "Financial Analysis", "Reporting Tools"],
       achievements: [
         "Analyzed and processed over 1 million financial data points, identifying key market trends that contributed to a 15% improvement in portfolio recommendation accuracy.",
         "Automated routine data validation tasks, decreasing errors by 25% and improving data quality for downstream analysis.",
         "Developed interactive dashboards using Tableau to visualize financial metrics, enhancing decision-making for stakeholders.",
-        "Collaborated with data engineering team to optimize ETL processes, reducing data processing time by 30%",
-        "Presented findings to senior management, leading to strategic adjustments in investment strategies"
+        "Collaborated with data engineering team to optimize ETL processes, reducing data processing time by 30%."
       ]
     }
   ];
@@ -116,7 +110,7 @@ const Projects = () => {
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Projects & Experience</h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Showcasing technical projects and professional experience in automation testing, data science, and web development
+            Showcasing technical projects and professional experience in GenAI, backend engineering, and distributed systems
           </p>
         </div>
 
@@ -125,7 +119,7 @@ const Projects = () => {
           <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Featured Projects</h3>
           <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-6">
             {projects.filter(project => project.featured).map((project, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+              <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden bg-card/50 backdrop-blur-sm border-border">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
@@ -155,12 +149,6 @@ const Projects = () => {
                         Code
                       </a>
                     </Button>
-                    {/* <Button variant="outline" size="sm" asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Demo
-                      </a>
-                    </Button> */}
                   </div>
                 </CardContent>
               </Card>
@@ -173,11 +161,11 @@ const Projects = () => {
           <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Professional Experience</h3>
           <div className="grid gap-6 max-w-4xl mx-auto">
             {workExperience.map((experience, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
+              <Card key={index} className="hover:shadow-lg transition-shadow bg-card/50 backdrop-blur-sm border-border">
                 <CardHeader>
                   <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-2">
                     <CardTitle className="text-xl font-semibold text-foreground">{experience.title}</CardTitle>
-                    <Badge variant="outline" className="self-start lg:self-center">{experience.type}</Badge>
+                    <Badge variant="outline" className="self-start lg:self-center bg-background">{experience.type}</Badge>
                   </div>
                   <div className="space-y-1">
                     <p className="text-primary font-medium text-lg">{experience.company}</p>
