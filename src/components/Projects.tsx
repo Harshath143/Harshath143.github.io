@@ -24,14 +24,6 @@ const Projects = () => {
       featured: true
     },
     {
-      title: "WorkSync System",
-      description: "WorkSync System is a staff monitoring solution built with FastAPI and PostgreSQL, enabling efficient staff data management and real-time performance visualization. It supports image uploads and offers a clean, modular backend architecture. Future enhancements include user authentication, cloud image storage, and advanced admin features.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
-      technologies: ["FastAPI", "PostgreSQL", "Python", "SQL", "Docker", "REST APIs"],
-      githubUrl: "https://github.com/Harshath143/WorkSync_System",
-      featured: true
-    },
-    {
       title: "AI_Company_prototype",
       description: "NeoForge AI is an autonomous software development system built with Python and FastAPI, enabling the seamless transformation of high-level requirements into production-ready codebases. It utilizes a multi-agent orchestration architecture to ensure high code quality through specialized roles—including Architects and Developers—and provides reliable, placeholder-free file generation. The system features a built-in dashboard for real-time workflow visualization and operates within isolated project environments to maintain strict structural integrity.",
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop",
